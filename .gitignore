@@ -1,3 +1,5 @@
 .DS_Store
 .env
 IgnoreFile
+all_tfidf_vector.csv
+tfidf_mlp_model.pth
