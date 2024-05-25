@@ -5,3 +5,4 @@ all_tfidf_vector.csv
 tfidf_mlp_model.pth
 tfidf_val.csv
 tfidf_train.csv
+tfidf_mlp_10fold_model.pth
