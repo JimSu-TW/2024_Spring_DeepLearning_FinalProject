@@ -5,3 +5,8 @@ all_tfidf_vector.csv
 tfidf_mlp_model.pth
 tfidf_val.csv
 tfidf_train.csv
+tfidf_mlp_10fold_model.pth
+bert_model_cuda.pth
+tfidf_mlp_10fold_model.pth.gz
+bert_model_mps.pth
+breeze_tfidf_vector.csv
