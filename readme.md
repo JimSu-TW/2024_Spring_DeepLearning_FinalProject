@@ -1,8 +1,14 @@
-***Course Name*** 深度學習實作與應用
+***Course Name***
+深度學習實作與應用
 
-***Course Number*** IM5062
+***Course Number***
+IM5062
 
-***Group Members*** R12725037 蘇勁安  R12725018 汪佩璇 R12725040 許方怡  R12725073 楊郁姸
+***Group Members***
+R12725037 蘇勁安
+R12725018 汪佩璇
+R12725040 許方怡
+R12725073 楊郁姸
 
 ---
 ## Project Info
@@ -22,6 +28,36 @@ With Python 3.10 installed, run
 ```
 
 to install all required package.
+
+## File Intro
+
+1. Classifier
+- GRU_10Fold.ipynb
+- GRU_NewData_Classifier.ipynb
+- KNN_10_10Fold.ipynb
+- KNN_NewData_Classifier.ipynb
+- LogisticRegression_10Fold.ipynb
+- LogisticRegression_NewData_Classifier.ipynb
+- MLP_10Fold.ipynb: 對現有資料做訓練
+- MLP_NewData_Classifier.ipynb: 對 Breeze 資料做測試
+- random_forest_10Fold.ipynb
+- random_forest_NewData_Classifier.ipynb
+- svm_forest_10Fold.ipynb
+- svm_NewData_Classifier.ipynb
+- XGBoost_10Fold.ipynb
+- XGBoost_NewData_Classifier.ipynb
+
+2. TextVectorize
+- BertModel.ipynb: 透過現有資料訓練BERT Model，使用BERT提供的 tokenlizer 對資料 token 化後輸入 BERT 架構訓練模型
+- Ollama_API.ipynb: 透過 local LLM 建置，access Breeze:7b (聯發創新基地（MediaTek Research）開源的MediaTek Research Breeze-7B模型 (以下簡稱 MR Breeze-7B)，憑藉其參數量少且性能卓越的特點，期望能對學術界和產業界在人工智能領域的進一步發展帶來正面影響。)
+- PTTCrawler.ipynb: PTT 爬蟲程式
+- TextToVec_BERT_self_train.ipynb: 將所有資料透過自訓練 BERT 模型轉成 vector
+- TextToVec_Combine.ipynb: 將所有資料透過 tfidf, word2vec, BERT (Google Trained) 轉成 vector
+- TextToVec_GPT.ipynb: 測試 GPT 資料轉 vector
+- TextToVec_Ollama.ipynb: 將 Breeze 資料轉 vector
+- TextToVec_Word2vec_self_train.ipynb: 將所有過自訓練 word2vec 模型轉成 vector
+- word_embeddings.npy: 自訓練 word2vec 模型
+- Word2vecModel.ipynb: 透過現有資料訓練 Word2vec Model
 
 ## Results
 1. F2-Score Comparison
