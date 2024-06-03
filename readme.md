@@ -48,8 +48,14 @@ to install all required package.
 - `word_embeddings.npy`: 自訓練 word2vec 模型
 - `Word2vecModel.ipynb`: 透過現有資料訓練 Word2vec Model
 
-3. Other
+3. Task
+- `seq_prediction_bert.ipynb`:
+- `seq_prediction_tfidf.ipynb`:
+- `Visualization.ipynb`: 資料視覺化觀察分佈
+
+4. Other
 - `eda.ipynb`: 將資料集進行探索性分析
+- `TrainTestSplit.ipynb`: 將資料分割成 Training Set, Test Set
 
 ## Results
 1. F2-Score Comparison
