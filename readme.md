@@ -48,6 +48,9 @@ to install all required package.
 - `word_embeddings.npy`: 自訓練 word2vec 模型
 - `Word2vecModel.ipynb`: 透過現有資料訓練 Word2vec Model
 
+3. Other
+- `eda.ipynb`: 將資料集進行探索性分析
+
 ## Results
 1. F2-Score Comparison
 
