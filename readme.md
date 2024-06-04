@@ -49,8 +49,8 @@ to install all required package.
 - `Word2vecModel.ipynb`: 透過現有資料訓練 Word2vec Model
 
 3. Task
-- `seq_prediction_bert.ipynb`:TF-IDF詞數變化的預測表現
-- `seq_prediction_tfidf.ipynb`:BERT詞數變化的預測表現
+- `seq_prediction_bert.ipynb`: TF-IDF詞數變化的預測表現
+- `seq_prediction_tfidf.ipynb`: BERT詞數變化的預測表現
 - `Visualization.ipynb`: 資料視覺化觀察分佈
 
 4. Other
